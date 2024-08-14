@@ -21,6 +21,7 @@ export default function Home() {
         {/* <try1/> */}
         {/* <Translator/> */}
         {/* <TransCopy/> */}
+        {/* new1 */}
       </main>
     </div>
   );
