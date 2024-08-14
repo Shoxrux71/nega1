@@ -23,7 +23,7 @@ const Translator = () => {
       headers: {
         'accept': 'application/json',
         'content-type': 'application/json',
-        'Authorization': `Bearer ${'a_UYpB80Ku1U8WcJhdLbga9KKWIDf7GlQMCa7tM2hGvwWnZTjSj9aSTwp6QHcNc6og1WVVunOVilEYrAtL'}`
+        'Authorization': `Bearer ${process.env.NEXT_PUBLIC_LINGVANEX_API_KEY}`
       },
       body: JSON.stringify({
         from: 'uz_UZ', // Uzbek
