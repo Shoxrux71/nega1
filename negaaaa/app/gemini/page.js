@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image'
 import React, { useState } from 'react';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import Link from 'next/link';
