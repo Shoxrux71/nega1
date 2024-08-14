@@ -18,6 +18,7 @@ export default function Home() {
         <Navbar/>
         <Translator />
         <Footer/>
+        {/* negaaa */}
         {/* <try1/> */}
         {/* <Translator/> */}
         {/* <TransCopy/> */}
