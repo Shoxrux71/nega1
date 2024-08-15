@@ -1,26 +1,10 @@
 'use client'
-import React, { useEffect, useState } from 'react'
-import Link from 'next/link'
-import { Label } from '@/components/ui/label'
-import { Switch } from '@/components/ui/switch'
-import { Input } from '@/components/ui/input'
-import { Button } from '@/components/ui/button'
-import { Textarea } from '@/components/ui/textarea'
+import React, { useState } from 'react'
 import { IoMdCopy } from 'react-icons/io'
-import { FaAngleRight } from "react-icons/fa6";
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue
-} from '@/components/ui/select'
-import { useRouter } from 'next/router'
-
+import { GoogleGenerativeAI } from "@google/generative-ai";
+import Link from 'next/link';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 const Translator = () => {
-  const [hiraganaText, setHiraganaText] = useState('')
   const [text, setText] = useState('')
   const [translatedText, setTranslatedText] = useState('')
 
@@ -65,9 +49,14 @@ const Translator = () => {
   }
 
   return (
-    <div className='min-h-screen flex flex-col items-center  p-0 bg-gray-100'>
+    <div className='min-h-screen flex flex-col items-center p-0 bg-gray-100'>
       <div className='w-full max-w-md bg-white shadow-md rounded-lg p-6 mt-5'>
-      {/* <Link href={"./gemini"}><Button className="flex justify-between" variant="outline"><FaAngleRight  className="h-4 w-4" /><img className='w-[30px]'src='uzb.png'/></Button></Link> */}
+      <Link href={"./gemini"}>
+              <button className="flex items-center px-4 py-2 border border-gray-300 rounded hover:bg-gray-100">
+                {/* <image src='jpn.png' className='w-[30px]'/> */}
+                <ChevronRight className="h-4 w-4" />
+              </button>
+            </Link>
         <h1 className='text-2xl font-semibold mb-4 text-center'>
           Yapon tilida so`z yoki gap kiriting...
           <span className='text-blue-500 tracking-wider text-sm'>
@@ -75,19 +64,21 @@ const Translator = () => {
             imloviy xatolarsiz{' '}
           </span>
         </h1>
-       <div className='flex justify-center mb-5'> <img className='w-[280px] h-[140px]' src='jpntouzb.png'/></div>
-        <Textarea
+        <div className='flex justify-center mb-5'>
+          <img className='w-[280px] h-[140px]' src='jpntouzb.png' />
+        </div>
+        <textarea
           className='w-full p-3 border border-gray-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500'
           value={text}
           onChange={e => setText(e.target.value)}
           placeholder="Yapon tilida so`z kiriting..."
         />
-        <Button
+        <button
           className='w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300'
           onClick={translateText}
         >
           Tarjima qilish
-        </Button>
+        </button>
         {translatedText && (
           <div className='mt-4 p-4 border border-blue-300 rounded-lg bg-blue-50'>
             <h2 className='text-2xl font-bold mb-3 text-blue-800'>Tarjima:</h2>
@@ -98,17 +89,16 @@ const Translator = () => {
               >
                 {translatedText}
               </p>
-              <Button
+              <button
                 onClick={copyToClipboard}
-                className='px-3 py-1 text-sm bg-blue-500 text-white rounded hover:bg-blue-600'
+                className='px-3 py-1 text-sm bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300'
               >
                 <IoMdCopy />
-              </Button>
+              </button>
             </div>
           </div>
         )}
       </div>
-      <fotter/>
     </div>
   )
 }
