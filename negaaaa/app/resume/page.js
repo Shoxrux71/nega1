@@ -33,7 +33,7 @@ export default function Example () {
             </button>
           </div>
             <p className='mt-4 text-gray-500 font-sans border p-4 border-cyan-400 rounded-lg'>
-              Yaponiyaga talaba bo'lib kelsangiz siz albatta <span className='text-cyan-400 hover:underline'><a href='https://studyinjapan.go.jp/en/work-in-japan/part-time-jobs/'>アルバイト</a></span> qilishni boshlaysiz. Bilingki Yaponiya qonunida 留学生 lar 1haftada 28 soat ishlash huquqiga ega. Sizni intervyuga chaqirishganda albatta 履歴書 so'rashadi. Siz uni shu yerdan yuklab olib <span className='text-cyan-400 hover:underline'><a href='https://www.baitoru.com/tokai/'>コンビニ</a></span> da 20円 ga print qilib olsangiz bo'ladi.
+              Yaponiyaga talaba bo`lib kelsangiz siz albatta <span className='text-cyan-400 hover:underline'><a href='https://studyinjapan.go.jp/en/work-in-japan/part-time-jobs/'>アルバイト</a></span> qilishni boshlaysiz. Bilingki Yaponiya qonunida 留学生 lar 1haftada 28 soat ishlash huquqiga ega. Sizni intervyuga chaqirishganda albatta 履歴書 so`rashadi. Siz uni shu yerdan yuklab olib <span className='text-cyan-400 hover:underline'><a href='https://www.baitoru.com/tokai/'>コンビニ</a></span> da 20円 ga print qilib olsangiz bo`ladi.
             </p>
 
             <dl className='mt-8 grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-6'>
