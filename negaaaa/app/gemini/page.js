@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { ChevronLeft } from 'lucide-react';
 import { IoMdCopy } from "react-icons/io";
 import Navbar from '@/components/navbar';
-
+import Footer from '@/components/Footer.jsx';
 const Translator = () => {
   const [text, setText] = useState('');
   const [translatedText, setTranslatedText] = useState('');
@@ -173,8 +173,11 @@ const Translator = () => {
             </div>
           )}
         </div>
+     
       </div>
+      <Footer/>
     </div>
+  
   );
 };
 
