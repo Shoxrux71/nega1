@@ -33,19 +33,19 @@ export function AccordionDemo() {
             <span className='text-blue-600'>'自動詞' (jidōshi)</span>
           </h1>
           <p className='text-gray-700 mb-4'>
-            <span className='text-blue-600'>'自動詞' (jidōshi)</span> o`z-o`zidan harakat qiluvchi fe'llarni anglatadi, masalan, 'ochilmoq' yoki 'qaytmoq'.
+            <span className='text-blue-600'>'自動詞' (jidōshi)</span> o&apos;z-o&apos;zidan harakat qiluvchi fe'llarni anglatadi, masalan, 'ochilmoq' yoki 'qaytmoq'.
           </p>
           <div className='space-y-2'>
             <AccordionItem title='ドアが開く (Doa ga aku)' content='Eshik ochiladi.' />
-            <AccordionItem title='電気が消える (Denki ga kieru)' content='Chiroq o`chadi.' />
+            <AccordionItem title='電気が消える (Denki ga kieru)' content='Chiroq o&apos;chadi.' />
             <AccordionItem title='花が咲く (Hana ga saku)' content='Gullar ochiladi.' />
-            <AccordionItem title='車が止まる (Kuruma ga tomaru)' content='Mashina to`xtaydi.' />
+            <AccordionItem title='車が止まる (Kuruma ga tomaru)' content='Mashina to&apos;xtaydi.' />
             <AccordionItem title='時計が動く (Tokei ga ugoku)' content='Soat ishlaydi.' />
             <AccordionItem title='水が凍る (Mizu ga kooru)' content='Suv muzlaydi.' />
             <AccordionItem title='音が聞こえる (Oto ga kikoeru)' content='Ovoz eshitiladi.' />
             <AccordionItem title='雨が降る (Ame ga furu)' content='Yomg`ir yogadi.' />
             <AccordionItem title='電車が出る (Densha ga deru)' content='Poyezd chiqadi.' />
-            <AccordionItem title='火が消える (Hi ga kieru)' content='Olov o`chadi.' />
+            <AccordionItem title='火が消える (Hi ga kieru)' content='Olov o&apos;chadi.' />
           </div>
         </div>
 
@@ -58,15 +58,15 @@ export function AccordionDemo() {
           </p>
           <div className='space-y-2'>
             <AccordionItem title='ドアを開ける (Doa o akeru)' content='Eshikni ochmoq.' />
-            <AccordionItem title='電気を消す (Denki o kesu)' content='Chiroqni o`chirmoq.' />
+            <AccordionItem title='電気を消す (Denki o kesu)' content='Chiroqni o&apos;chirmoq.' />
             <AccordionItem title='花を植える (Hana o ueru)' content='Gul ekmoq.' />
-            <AccordionItem title='車を止める (Kuruma o tomeru)' content='Mashinani to`xtatmoq.' />
+            <AccordionItem title='車を止める (Kuruma o tomeru)' content='Mashinani to&apos;xtatmoq.' />
             <AccordionItem title='時計を直す (Tokei o naosu)' content='Soatni tuzatmoq.' />
             <AccordionItem title='水を凍らせる (Mizu o kooraseru)' content='Suvni muzlatmoq.' />
             <AccordionItem title='音を聞く (Oto o kiku)' content='Ovozni eshitmoq.' />
             <AccordionItem title='雨を降らせる (Ame o furaseru)' content='Yomg`ir yog`dirmoq.' />
             <AccordionItem title='電車を出す (Densha o dasu)' content='Poyezdni chiqarish.' />
-            <AccordionItem title='火を消す (Hi o kesu)' content='Olovni o`chirmoq.' />
+            <AccordionItem title='火を消す (Hi o kesu)' content='Olovni o&apos;chirmoq.' />
           </div>
         </div>
       </div>
