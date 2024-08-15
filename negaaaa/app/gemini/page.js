@@ -89,7 +89,7 @@ const Translator = () => {
           <div className='flex justify-between mb-4'>
             <Link href={"./"}>
               <button className="flex items-center px-4 py-2 border border-gray-300 rounded hover:bg-gray-100">
-                <img className='w-[30px] mr-2' src='jpn.png' alt='Japan flag' />
+                <img className='w-[30px]' src='jpn.png' alt='Japan flag' />
                 <ChevronLeft className="h-4 w-4" />
               </button>
             </Link>
