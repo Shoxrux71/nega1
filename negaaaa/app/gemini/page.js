@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { ChevronLeft } from 'lucide-react';
 import { useRouter } from 'next/router';
 import { IoMdCopy } from "react-icons/io";
-// import Navbar from '@/components/navbar';
+import Navbar from '@/components/navbar';
 // import Footer from '@/components/footer.jsx';
 
 const Translator = () => {
@@ -83,7 +83,7 @@ const Translator = () => {
 
   return (
     <div className="">
-      {/* <Navbar/> */}
+      <Navbar/>
       <div className="min-h-screen flex flex-col items-center pt-5 px-4 sm:px-6 lg:px-8 bg-gray-100">
         <div className="m-5 w-full max-w-md bg-white shadow-md rounded-lg p-6">
           <div className='flex justify-between mb-4'>
@@ -112,7 +112,7 @@ const Translator = () => {
             className="w-full p-3 border border-gray-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="O'zbek tilida so'z kiriting..."
+            placeholder="O`zbek tilida so`z kiriting..."
           />
           <div className="mb-4">
             <select

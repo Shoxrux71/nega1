@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '@/components/navbar.jsx';
+
 
 const page = () => {
   return (
-    <div><a href="./gemini">gemini</a></div>
+    <div>
+      <Navbar/>
+      <a href="./gemini">gemini</a>
+    </div>
   )
 }
 
