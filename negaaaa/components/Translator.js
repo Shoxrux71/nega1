@@ -49,7 +49,7 @@ const Translator = () => {
   }
 
   return (
-    <div className='min-h-screen flex flex-col items-center p-0 bg-gray-100'>
+    <div className='min-h-screen flex flex-col items-center pt-5 px-4 sm:px-6 lg:px-8 bg-gray-100'>
       <div className='w-full max-w-md bg-white shadow-md rounded-lg p-6 mt-5'>
       <Link href={"./gemini"}>
               <button className="flex items-center px-4 py-2 border border-gray-300 rounded hover:bg-gray-100">
