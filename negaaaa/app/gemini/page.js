@@ -105,7 +105,7 @@ const Translator = () => {
             </div>
           </div>
           <h1 className="text-2xl font-semibold mb-4 text-center">
-            O'zbek tilida so'z yoki gap kiriting...
+            Uzbek tilida so`z yoki gap kiriting...
             <span className="text-blue-500 tracking-wider text-sm"> imloviy xatolarsiz </span>
           </h1>
           <textarea
