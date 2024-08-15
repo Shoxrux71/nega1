@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>Shoxrux</div>
+    <div><a href="./gemini">gemini</a></div>
   )
 }
 
